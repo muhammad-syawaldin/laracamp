@@ -28,7 +28,7 @@
                     <img src="{{Auth::user()->avatar}}" class="user-photo" alt="">
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="right:0; left: auto">
                         <li>
-                            <a class="dropdown-item" href="#">My Dashboard</a>
+                            <a class="dropdown-item" href="{{route('user.dashboard')}}">My Dashboard</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sign Out</a>
